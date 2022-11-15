@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    #wrapper {
+      width: 100%;
+      background: rgb(225, 223, 226);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .item1{
+        background-color: aqua;
+        
+    }
+
+    .item2{
+        background-color: rgb(95, 65, 206);
+        
+    }
+
+    .item3{
+        background-color: rgb(180, 47, 180);
+        
+    }
+
+    .item4{
+        background-color: rgb(219, 217, 56);
+       
+    }
+  </style>
+
+  <body>
+    <div id="wrapper">
+      <div class="item1 box1">lorem ipsum 12121212</div>
+      <div class="item2 box2">lorem ipsum 12121212</div>
+      <div class="item3 box3">lorem ipsum 12121212</div>
+      <div class="item4 box4">lorem ipsum 12121212</div>
+    </div>
+
+      <dl>
+        <dt>이름</dt>
+        <dd>값</dd>
+      </dl>
+      <object width="500px" height="500px" data="/images/today_3.jpg"></object>
+
+      <form action="register.php" autocomplete="off">
+        <fieldset>
+          <legend>아이디와 비밀번호 입력</legend>
+          <label for="user-id">아이디(6자 이상)</label>
+          <input type="text" id="user-id">
+          <label for="user-password">비밀번호(10자 이상)</label>
+          <input type="password" id="user-password">
+          <label for="address">주소</label>
+          <input type="addr" id="address">
+          <label for="phone">연락처</label>
+          <input type="tel" id="phone">
+          
+
+          <input type="submit" value="로그인">
+
+
+
+        </fieldset>
+
+    
+      </form>
+
+
+  </body>
+</html>
